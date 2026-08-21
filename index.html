@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Atelier Café, un microcafé de especialidad en Palermo. Café, pastelería artesanal y brunch liviano." />
+    <meta name="theme-color" content="#66715A" />
+    <title>Atelier Café — Palermo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400;12..96,75..100,500;12..96,75..100,600&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="#inicio" aria-label="Atelier Café, inicio">atelier café<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-principal">
+        <span>Menú</span><span class="menu-icon" aria-hidden="true"></span>
+      </button>
+      <nav id="nav-principal" class="nav" aria-label="Navegación principal">
+        <a href="#atelier">Atelier</a><a href="#menu">Menú</a><a href="#espacio">El espacio</a><a href="#visitanos">Visitá</a>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-photo" role="img" aria-label="Taza de café sobre una mesa de madera en un café cálido"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow light">Microcafé · Palermo</p>
+          <h1 id="hero-title">Un café<br /><em>para quedarse.</em></h1>
+          <p class="hero-copy">Café de especialidad, pastelería artesanal y ocho mesas para bajar un cambio.</p>
+          <div class="actions"><a class="button button-light" href="#menu">Ver menú</a><a class="text-link light" href="https://maps.google.com/?q=Gorriti+4892+Palermo+Buenos+Aires" target="_blank" rel="noopener">Cómo llegar <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <p class="hero-note">Gorriti 4892<br />Buenos Aires</p>
+        <a class="scroll-cue" href="#atelier" aria-label="Ir a la siguiente sección"><span></span></a>
+      </section>
+
+      <section class="intro section" id="atelier" aria-labelledby="intro-title">
+        <p class="section-number">01 — Sobre Atelier</p>
+        <div class="intro-grid">
+          <h2 id="intro-title" class="display reveal">Chico en escala.<br /><em>Grande en intención.</em></h2>
+          <div class="intro-copy reveal">
+            <p>Atelier es un microcafé de ocho mesas en el corazón de Palermo. Un lugar simple y cálido, pensado para el café de todos los días.</p>
+            <p>Servimos una carta breve de especialidad, pastelería hecha acá y brunch liviano. Sin apuro, sin vueltas.</p>
+          </div>
+        </div>
+        <div class="details-strip" aria-label="Características de Atelier">
+          <span>8 mesas</span><span>café de especialidad</span><span>hecho en casa</span><span>Palermo</span>
+        </div>
+      </section>
+
+      <section class="menu-section section" id="menu" aria-labelledby="menu-title">
+        <div class="section-heading"><div><p class="section-number">02 — Lo rico</p><h2 id="menu-title" class="display reveal">Una carta breve,<br /><em>para volver.</em></h2></div><p>Elegimos hacer pocas cosas<br />y hacerlas muy bien.</p></div>
+        <div class="menu-grid">
+          <article class="menu-card reveal"><p class="menu-index">I</p><h3>Cafés</h3><ul><li><span>Espresso</span><span>$2.800</span></li><li><span>Cortado</span><span>$3.200</span></li><li><span>Flat white</span><span>$3.800</span></li><li><span>Filtro del día</span><span>$4.100</span></li><li><span>Iced latte</span><span>$4.300</span></li></ul></article>
+          <article class="menu-card reveal"><p class="menu-index">II</p><h3>Pastelería</h3><ul><li><span>Croissant</span><span>$3.400</span></li><li><span>Cinnamon roll</span><span>$4.200</span></li><li><span>Budín de limón</span><span>$3.600</span></li><li><span>Cookie de chocolate</span><span>$3.500</span></li><li><span>Torta del día</span><span>$4.900</span></li></ul></article>
+          <article class="menu-card reveal"><p class="menu-index">III</p><h3>Brunch</h3><ul><li><span>Tostón de palta</span><span>$7.900</span></li><li><span>Huevos cremosos</span><span>$7.500</span></li><li><span>Yogur & granola</span><span>$6.400</span></li><li><span>Focaccia del día</span><span>$8.200</span></li><li><span>Fruta de estación</span><span>$5.800</span></li></ul></article>
+        </div>
+        <p class="menu-note">Opciones vegetarianas y leches vegetales disponibles.</p>
+      </section>
+
+      <section class="space section" id="espacio" aria-labelledby="space-title">
+        <div class="space-heading"><p class="section-number">03 — El espacio</p><h2 id="space-title" class="display reveal">Luz, madera<br />y tiempo.</h2><p class="editorial-quote reveal">“Un rincón íntimo para mirar el barrio pasar.”</p></div>
+        <div class="gallery">
+          <figure class="photo photo-tall reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=85" alt="Interior cálido de una cafetería con mesas pequeñas" loading="lazy" width="800" height="1100" /><figcaption>La barra, nuestro punto de encuentro.</figcaption></figure>
+          <figure class="photo photo-wide reveal"><img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1400&q=85" alt="Café servido en vajilla de cerámica sobre madera" loading="lazy" width="1200" height="800" /><figcaption>Detalles simples, elegidos con cuidado.</figcaption></figure>
+          <figure class="photo photo-small reveal"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=900&q=85" alt="Luz natural entrando en un pequeño café" loading="lazy" width="800" height="800" /></figure>
+        </div>
+      </section>
+
+      <section class="philosophy section" aria-labelledby="philosophy-title">
+        <div class="philosophy-art" aria-hidden="true"><span class="steam steam-one"></span><span class="steam steam-two"></span><span class="cup"></span></div>
+        <div class="philosophy-content reveal"><p class="section-number">04 — Nuestra manera</p><h2 id="philosophy-title" class="display">Café hecho<br /><em>con tiempo.</em></h2><p>Seleccionamos granos que disfrutamos y los preparamos con atención. Nuestra carta cambia lo justo: ingredientes simples, productores cercanos y recetas honestas.</p><p>Nos gusta aprender tu nombre, recomendarte algo rico y que encuentres tu mesa favorita.</p><div class="values"><span>01 / Selección</span><span>02 / Simpleza</span><span>03 / Cercanía</span></div></div>
+      </section>
+
+      <section class="visit section" id="visitanos" aria-labelledby="visit-title">
+        <div class="visit-top"><p class="section-number">05 — Visitá Atelier</p><h2 id="visit-title" class="display reveal">Tu mesa te<br /><em>está esperando.</em></h2></div>
+        <div class="visit-grid">
+          <div class="visit-address reveal"><p>Gorriti 4892</p><p>Palermo, Buenos Aires</p><a class="button button-dark" href="https://maps.google.com/?q=Gorriti+4892+Palermo+Buenos+Aires" target="_blank" rel="noopener">Cómo llegar <span aria-hidden="true">↗</span></a></div>
+          <div class="hours reveal"><h3>Horarios</h3><p><span>Lunes a viernes</span><span>8:00 — 20:00</span></p><p><span>Sábados y domingos</span><span>9:00 — 20:00</span></p><small>Venite cuando quieras, no trabajamos con reservas.</small></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="footer-brand" href="#inicio">atelier café<span>.</span></a><p>Un café para quedarse.</p><div><a href="https://instagram.com" target="_blank" rel="noopener">Instagram ↗</a><a href="mailto:hola@ateliercafe.com.ar">Contacto</a></div><small>© <span data-year></span> Atelier Café · Buenos Aires</small></footer>
+  </body>
+</html>
